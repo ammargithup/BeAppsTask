@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ProductDAL.Entity.Product.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </th>
+        <th></th>
+    </tr>*@
+
+@foreach (var item in Model) {
+    @*<tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImageUrl)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>*@
+}
+
+@*</table>*@
+
+
+<div class="main">
+    <ul class="cards">
+   
+@foreach (var item in Model)
+{
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img height="200" src="@item.ImageUrl"></div>
+                <div class="card_content">
+                    <h2 class="card_title">@item.Name</h2>
+                    <p class="card_text">@item.Description</p>
+                    <p class="btn card_btn">@item.Price $</p>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </div>
+            </div>
+        </li>
+
+}
+    </ul>
+</div>
+
+@Styles.Render("~/Content/ProductsGrid.css")

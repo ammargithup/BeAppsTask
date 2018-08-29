@@ -1,0 +1,16 @@
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\ProductDAL.dll.config
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\ProductDAL.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\ProductDAL.pdb
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\EntityFramework.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\EntityFramework.xml
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\obj\Debug\ProductDAL.dll
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\obj\Debug\ProductDAL.pdb
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\obj\Debug\ProductDAL.Migrations.InitialCreate.resources
+c:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\obj\Debug\ProductDAL.csproj.GenerateResource.Cache
+C:\Users\Ammar\documents\visual studio 2015\Projects\BeApps\ProductDAL\obj\Debug\ProductDAL.csprojResolveAssemblyReference.cache
